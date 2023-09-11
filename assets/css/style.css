@@ -696,6 +696,13 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
+.featured-services{
+  background-image: url('color\ _\ bg/1920x1080.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .featured-services .icon-box {
   padding: 30px;
   position: relative;

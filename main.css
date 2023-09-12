@@ -180,7 +180,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(var(--color-primary-rgb), 0.85);
+  background: #012a43;
   color: white;
 }
 
@@ -1611,7 +1611,7 @@ height: 150px;
 }
 
 .onfocus .content .read-more:hover {
-  background: rgba(var(--color-primary-rgb), 0.9);
+  background: #012a43;
   padding-right: 19px;
 }
 
@@ -2452,7 +2452,7 @@ height: 150px;
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--color-secondary-light);
+  border-color: #012a43;
 }
 
 .contact .php-email-form input[type=text],
@@ -2476,7 +2476,7 @@ height: 150px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(var(--color-primary-rgb), 0.85);
+  background: #012a43;
 }
 
 @keyframes animate-loading {

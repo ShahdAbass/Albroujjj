@@ -1052,6 +1052,14 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
+
+
+.featured-services { 
+  min-height: 400px;
+  background:url("color\ _\ bg/two.jpg") center center;
+  background-size: cover;
+
+}
 .featured-services .icon-box {
   padding: 30px;
   position: relative;
@@ -1255,19 +1263,13 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url('color\ _\ bg/one.jpg') center center no-repeat;
+  padding: 0;
+  min-height: 400px;
+  background:url("color\ _\ bg/one.jpg") center center;
   background-size: cover;
-  position: relative;
 }
 
-.events::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
+
 
 .events .section-title h2 {
   color: #fff;
@@ -1296,6 +1298,7 @@ section {
   font-weight: 600;
   font-size: 26px;
   color: white;
+  margin-top: 120px;
 }
 
 .events .event-item .price {
@@ -1547,20 +1550,12 @@ height: 150px;
 --------------------------------------------------------------*/
 .onfocus {
   padding: 0;
-}
-
-.onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
+  background:url("color\ _\ bg/two.jpg") center center;
   background-size: cover;
 }
 
-.onfocus .content {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center;
-  background-size: cover;
-  color: rgba(var(--color-white-rgb), 0.8);
-  padding: 40px;
-}
+
 
 @media (min-width: 768px) {
   .onfocus .content {
@@ -2386,23 +2381,23 @@ height: 150px;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: var(--color-secondary);
+  color: #012a43;
 }
 
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
-  color: var(--color-secondary-light);
+  color:#012a43;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: white;
+  
 }
 
 .contact .php-email-form .form-group {
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 
 .contact .php-email-form .error-message {

@@ -1444,9 +1444,7 @@ section {
 margin-top: 8px;
 }
 
-.clients .swiper-slide img {
-height: 150px;
-}
+
 .clients h2{
   margin-top: 10px;
 }
@@ -1739,7 +1737,7 @@ height: 150px;
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
-  border: 2px solid #012a43;
+  border: 2px solid #055282;
 }
 
 .services .details h3 {
@@ -1757,16 +1755,16 @@ height: 150px;
 }
 
 .services .service-item:hover .details h3 {
-  color: #012a43;
+  color: #055282;
 }
 
 .services .service-item:hover .details .icon {
-  background: white;
-  border: 2px solid #055282;
+  background:#055282;
+  border: 2px solid white;
 }
 
 .services .service-item:hover .details .icon img {
-  color: #012a43;
+  color: #055282;
 }
 
 .services .service-item:hover .img img {

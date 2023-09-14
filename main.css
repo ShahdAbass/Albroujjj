@@ -1708,7 +1708,9 @@ margin-top: 8px;
 .services .img img {
   transition: 0.6s;
 }
-
+.services .img img:hover {
+  filter: grayscale(100);
+}
 .services .details {
   padding: 50px 30px;
   margin: -100px 30px 0 30px;
@@ -1760,7 +1762,7 @@ margin-top: 8px;
 
 .services .service-item:hover .details .icon {
   background:#055282;
-  border: 2px solid white;
+ 
 }
 
 .services .service-item:hover .details .icon img {
@@ -2465,7 +2467,7 @@ margin-top: 8px;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #012a43;
+  background: green;
   border: 0;
   padding: 13px 50px;
   color: white;
@@ -2474,8 +2476,9 @@ margin-top: 8px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #012a43;
+  background: red;
 }
+
 
 @keyframes animate-loading {
   0% {
